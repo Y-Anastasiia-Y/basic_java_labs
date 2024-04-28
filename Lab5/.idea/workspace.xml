@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27a3bc62-25d2-4338-9258-0cce5a965b5e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ResultPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ResultPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="27a3bc62-25d2-4338-9258-0cce5a965b5e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +81,7 @@
       <workItem from="1714301917440" duration="12000" />
       <workItem from="1714302024748" duration="26000" />
       <workItem from="1714302060132" duration="2320000" />
+      <workItem from="1714334765595" duration="54000" />
     </task>
     <servers />
   </component>
