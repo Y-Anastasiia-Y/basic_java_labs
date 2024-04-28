@@ -23,7 +23,6 @@ public class Matrix {
         }
     }
 
-    // Метод для заповнення матриці рандомними числами
     public void fillMatrixRandomly() {
         for (int i = 0; i < RowsNumber; i++) {
             for (int j = 0; j < ColumnsNumber; j++) {
@@ -32,7 +31,6 @@ public class Matrix {
         }
     }
 
-    // Метод для пошуку мінімального елементу
     public int findMin() {
         int min = matrix[0][0];
         for (int i = 0; i < RowsNumber; i++) {
