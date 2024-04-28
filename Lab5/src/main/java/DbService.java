@@ -12,17 +12,15 @@ public class DbService {
 
     public List<Student> getStudentsByBirthMonth(Integer monthNumber) throws SQLException {
         Connection connection = DriverManager.getConnection(configuration.getJDBC_URL(), configuration.getUSER(), configuration.getPASSWORD());
-        // Підключення успішне
-        System.out.println("Підключення до бази даних успішне.");
+
+        System.out.println("Connection to the database is more successful.");
 
         PreparedStatement statement = connection.prepareStatement(SqlQueryTemplate);
-        // Передача параметру місяця до SQL-запиту
+
         statement.setString(1, monthNumber.toString());
 
-        // Виконання запиту та отримання результатів
         ResultSet resultSet = statement.executeQuery();
 
-        // Отимання результатів
         List<Student> students = new ArrayList<>();
 
         while (resultSet.next()) {

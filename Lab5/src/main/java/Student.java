@@ -7,7 +7,6 @@ public class Student {
     private Date dateOfBirth;
     private String studentID;
 
-    // Конструктор
     public Student(String lastName, String firstName, String middleName, Date dateOfBirth, String studentID) {
         this.lastName = lastName;
         this.firstName = firstName;
@@ -36,8 +35,7 @@ public class Student {
         return studentID;
     }
 
-    // Перевизначення методу toString() для зручного виводу інформації про студента
-    @Override
+
     public String toString() {
         return lastName +
                 " " + firstName +

@@ -10,7 +10,7 @@ public class Run {
         boolean isValidInput = false;
 
         while (!isValidInput) {
-            System.out.print("Введіть номер місяця (1-12): ");
+            System.out.print("Enter month number (1-12): ");
             String input = scanner.nextLine();
 
             try {
@@ -18,10 +18,10 @@ public class Run {
                 if (monthNumber >= 1 && monthNumber <= 12) {
                     isValidInput = true;
                 } else {
-                    System.out.println("Неправильне значення місяця. Введіть число від 1 до 12.");
+                    System.out.println("The month is incorrect. Enter a number from 1 to 12.");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Неправильний формат числа. Введіть число від 1 до 12.");
+                System.out.println("Incorrect number format. Enter a number from 1 to 12.");
             }
         }
 
